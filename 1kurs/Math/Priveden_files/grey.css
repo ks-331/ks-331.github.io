@@ -1,0 +1,14 @@
+a, a:link, a:visited,
+.post h2, .type-page h2, .post h2 a:link, .post h2 a:visited, .arh,
+.post h1, .type-page h1, .post h1 a:link, .post h1 a:visited,
+#sidebar a:link, #sidebar a:visited,
+#comments h3, #respond h3
+{
+	color: #777777;
+}
+#sidebar ul li h2, #sidebar ul li h1 {
+	background-color: #777777;
+}
+#header, #slide_panel, .postcomments, #footer {
+	background-color: #777777;
+}

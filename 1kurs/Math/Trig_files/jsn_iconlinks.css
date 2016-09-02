@@ -1,0 +1,282 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2006 - 2009 JoomlaShine.com. All rights reserved.
+* @license   Copyrighted Commercial Software
+* This file may not be redistributed in whole or significant part.
+*/
+/* Based on extension */
+a[href$='.txt'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -1578px;
+}
+body.jsn-direction-rtl a[href$='.txt'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -1578px;
+}
+a[href$='.mp3'],
+a[href$='.wav'],
+a[href$='.ogg'],
+a[href$='.wma'],
+a[href$='.m4a'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -1122px;
+}
+body.jsn-direction-rtl a[href$='.mp3'],
+body.jsn-direction-rtl a[href$='.wav'],
+body.jsn-direction-rtl a[href$='.ogg'],
+body.jsn-direction-rtl a[href$='.wma'],
+body.jsn-direction-rtl a[href$='.m4a'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -1122px;
+}
+a[href$='.zip'],
+a[href$='.rar'],
+a[href$='.gzip'],
+a[href$='.bzip'],
+a[href$='.ace'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -140px;
+}
+body.jsn-direction-rtl a[href$='.zip'],
+body.jsn-direction-rtl a[href$='.rar'],
+body.jsn-direction-rtl a[href$='.gzip'],
+body.jsn-direction-rtl a[href$='.bzip'],
+body.jsn-direction-rtl a[href$='.ace'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -140px;
+}
+a[href$='.mp4'],
+a[href$='.avi'],
+a[href$='.mpg'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -666px;
+}
+body.jsn-direction-rtl a[href$='.mp4'],
+body.jsn-direction-rtl a[href$='.avi'],
+body.jsn-direction-rtl a[href$='.mpg'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -666px;
+}
+a[href$=".wmv"] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -1730px;
+}
+body.jsn-direction-rtl a[href$=".wmv"] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -1730px;
+}
+a[href$='.doc'],
+a[href$='.rtf'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -444px;
+}
+body.jsn-direction-rtl a[href$='.doc'],
+body.jsn-direction-rtl a[href$='.rtf'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -444px;
+}
+a[href$='.xls'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -1806px;
+}
+body.jsn-direction-rtl a[href$='.xls'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -1806px;
+}
+a[href$='.pps'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -1274px;
+}
+body.jsn-direction-rtl a[href$='.pps'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -1274px;
+}
+a[href$='.fla'],
+a[href$='.swf'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -742px;
+}
+body.jsn-direction-rtl a[href$='.fla'],
+body.jsn-direction-rtl a[href$='.swf'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -742px;
+}
+a[href$='.pdf'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -1578px;
+}
+body.jsn-direction-rtl a[href$='.pdf'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -1578px;
+}
+a[href$='.rss'],
+a[href$='.atom'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -590px;
+}
+body.jsn-direction-rtl a[href$='.rss'],
+body.jsn-direction-rtl a[href$='.atom'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -590px;
+}
+a[href$='.vcard'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -1654px;
+}
+body.jsn-direction-rtl a[href$='.vcard'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -1654px;
+}
+a[href$=".mov"] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -970px;
+}
+body.jsn-direction-rtl a[href$=".mov"] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -970px;
+}
+a[href$='.dmg'],
+a[href$='.app'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -368px;
+}
+body.jsn-direction-rtl a[href$='.dmg'],
+body.jsn-direction-rtl a[href$='.app'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -368px;
+}
+a[href$='.ical'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -818px;
+}
+body.jsn-direction-rtl a[href$='.ical'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -818px;
+}
+a[href$='.css'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -292px;
+}
+body.jsn-direction-rtl a[href$='.css'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -292px;
+}
+a[href$='.ttf'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -1502px;
+}
+body.jsn-direction-rtl a[href$='.ttf'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -1502px;
+}
+a[href$='.torrent'] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -1426px;
+}
+body.jsn-direction-rtl a[href$='.torrent'] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -1426px;
+}
+a[href^="mailto:"] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -894px;
+}
+body.jsn-direction-rtl a[href^="mailto:"] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -894px;
+}
+a[href^="callto:"] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -216px;
+}
+body.jsn-direction-rtl a[href^="callto:"] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -216px;
+}
+a[href^="msnim:"] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -1046px;
+}
+body.jsn-direction-rtl a[href^="msnim:"] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -1046px;
+}
+a[href^="aim:"] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -64px;
+}
+body.jsn-direction-rtl a[href^="aim:"] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -64px;
+}
+a[href*="edit.yahoo.com/config/send_webmesg?"] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -1882px;
+}
+body.jsn-direction-rtl a[href*="edit.yahoo.com/config/send_webmesg?"] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -1882px;
+}
+a[href^="skype:"] {
+	padding: 0 20px 0 0;
+	display: inline-block;
+	background: transparent url(../images/icons-ext.png) no-repeat right -1350px;
+}
+body.jsn-direction-rtl a[href^="skype:"] {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: left -1350px;
+}
+/* Reset original styles */
+#jsn-mainbody a[title="PDF"],
+#jsn-mainbody a[title="Print"],
+#jsn-mainbody a[title="E-mail"] {
+	padding: 0;
+	background: none;
+}

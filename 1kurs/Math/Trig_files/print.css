@@ -1,0 +1,47 @@
+/**
+* author    JoomlaShine.com http://www.joomlashine.com
+* copyright Copyright (C) 2006 - 2009 JoomlaShine.com. All rights reserved.
+* license   Copyrighted Commercial Software
+* This file may not be redistributed in whole or significant part.
+*/
+/* ============================== LAYOUT SIMPLIFICATION  ============================== */
+#jsn-pstickleft,
+#jsn-pstickright,
+#jsn-pinset,
+#jsn-menu,
+#jsn-featured,
+#jsn-leftsidecontent,
+#jsn-rightsidecontent,
+#jsn-usermodules1,
+#jsn-usermodules2,
+#jsn-usermodules3,
+#jsn-banner,
+#jsn-gotop,
+.jsn-article-metadata,
+ul.jsn-article-tools,
+span.content_rating,
+span.content_vote,
+table.pagenav {
+	display: none !important;
+}
+
+#jsn-master #jsn-page {
+	width: 100%;
+	border: none;
+}
+
+#jsn-master #jsn-maincontent {
+	width: 100%;
+	right: 0;
+	float: none;
+}
+
+#jsn-master p.author,
+#jsn-master p.createdate {
+	padding: 3px;
+}
+
+h2.contentheading,
+h2.contentheading a {
+	color: #000000 !important;
+}

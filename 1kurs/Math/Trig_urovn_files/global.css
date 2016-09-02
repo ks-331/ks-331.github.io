@@ -1,0 +1,203 @@
+*
+{
+    font-size: 100%;
+
+    margin: 0;
+}
+
+/* Common styles (begin) */
+    .b-body_toolbar
+    {
+        padding-top: 26px;
+    }
+
+    .b-body h1
+    {
+        font-size: 180%;
+    }
+
+    .b-body h2
+    {
+        font-size: 160%;
+    }
+
+    .b-body h3
+    {
+        font-size: 140%;
+    }
+
+    .b-body h4
+    {
+        font-size: 120%;
+    }
+
+    .b-body h5
+    {
+        font-size: 110%;
+    }
+
+    .b-body h6
+    {
+        font-size: 110%;
+    }
+
+    .b-body h1, .b-body h2, .b-body h3, .b-body h4, .b-body h5, .b-body h6
+    {
+        font-weight: normal;
+    }
+
+    .b-body h1, .b-body h2, .b-body h3, .b-body h4, .b-body h5, .b-body h6
+    {
+        margin-bottom: 0.1em;
+    }
+
+    p
+    {
+        padding: 0.1em;
+    }
+
+    img
+    {
+        border: 0;
+    }
+    
+    .g-hidden
+    {
+    	display: none !important;
+    }
+/* Common styles (end) */
+
+/* Layout table (begin) */
+    .layout
+    {
+        width: 100%;
+
+        border-collapse: collapse;
+    }
+
+    .layout td
+    {
+        padding: 0;
+
+        text-align: left;
+        vertical-align: top;
+
+        border-collapse: collapse;   /* Hello, IE! */
+    }
+/* Layout table (end) */
+
+
+/* Global holster (begin) */
+    .holster
+    {
+        margin: 1em;
+    }
+/* Global holster (end) */
+
+/* Text-align properties (begin) */
+    .txt-right
+    {
+        text-align: right;
+    }
+    
+    .txt-right div,
+    .txt-right table
+    {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .txt-center
+    {
+        text-align: center;
+    }
+    
+    .txt-center div,
+    .txt-center table
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+/* Text-align properties (end) */
+
+/* Hr Line (begin) */
+    hr
+    {
+        height: 0;
+        margin: 0;
+        padding: 0;
+
+        border: 0;
+    }
+/* Hr Line (end) */
+
+/* User (begin) */
+    .b-user
+    {
+        font-family: Arial, sans-serif;
+    }
+
+    .b-user, .b-user *
+    {
+        font-weight: bold;
+
+        vertical-align: baseline;
+
+        color: #000 !important;
+    }
+
+    .b-user a, .b-user a:link, .b-user a b
+    {
+        text-decoration: underline !important;
+    }
+
+    .b-user b
+    {
+        text-decoration: none;
+
+        color: #f00 !important;
+    }
+
+    .b-user a b
+    {
+        text-decoration: underline;
+    }
+
+    .header .b-user, .header .b-user *
+    {
+        font-weight: normal;
+    }
+/* User (end) */
+
+/* Clear (begin) */
+    .clear
+    {
+        clear: both;
+    }
+/* Clear (end) */
+.b-custom-widget
+{
+	margin:20px 0;
+}
+
+body .b-custom-widget
+{
+	font-size: 80%;
+}
+
+body .b-custom-widget h2
+{
+	font-size: 100%;
+}
+
+.b-body .b-placeholder_widget
+{
+	font-size: 123%;
+}
+
+.placeholder
+{
+	color: #aaa;
+}
+
+wbr { white-space: nowrap }

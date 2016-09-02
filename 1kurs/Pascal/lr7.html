@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <script>$(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+        $('.scrollup').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 600);
+            return false;
+        });
+    });</script>
+
+    <nav class="light-green">
+        <div class="nav-wrapper">
+            <a href="../" class="brand-logo center hide-on-small-only">Информация для 1 курса КС</a>
+            <a href="../" class="brand-logo center hide-on-med-and-up">Информация</a>
+        </div>
+    </nav>
+    <div class="container flow-text">
+        <h4>Лабораторная работа №7. Составление линейных алгоритмов.</h4>
+        <table class="striped bordered">
+            <thead>
+            <tr>
+                <th>№</th>
+                <th>Задача</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Составить программу, вычисляющую сумму двух введенных с клавиатуры чисел (+)</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Составить программу, вычисляющую разность двух введенных с клавиатуры чисел (-)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Составить программу, вычисляющую частное двух введенных с клавиатуры чисел (/)</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Составить программу, вычисляющую произведение двух введенных с клавиатуры чисел (*)</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Составить программу, вычисляющую логическое умножение двух введенных с клавиатуры чисел (AND)</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Составить программу, вычисляющую логическую сумму двух введенных с клавиатуры чисел (OR)</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Составить программу, вычисляющую логическое отрицание введенного числа (NOT)</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Составить программу, вычисляющую остаток от деления одного числа на другое (MOD)</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Составить программу, вычисляющую целое от деления одного числа на другое (DIV)</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Составить программу, вычисляющую исключающую логическую сумму двух введенных с клавиатуры чисел (XOR)</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Составить программу, вычисляющую сдвиг числа влево на некоторое количество символов (SHL)</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Составить программу, вычисляющую сдвиг числа вправо на некоторое количество символов (SHR)</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <table class="striped bordered">
+            <thead>
+            <tr>
+                <td>Варианты</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Компьютер</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Вариант</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

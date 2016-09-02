@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <script>$(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+        $('.scrollup').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 600);
+            return false;
+        });
+    });</script>
+
+    <nav class="light-green">
+        <div class="nav-wrapper">
+            <a href="../" class="brand-logo center hide-on-small-only">Информация для 1 курса КС</a>
+            <a href="../" class="brand-logo center hide-on-med-and-up">Информация</a>
+        </div>
+</nav>
+
+    <div class="container flow-text">
+        <center><h2>Лабораторная работа: Создание исполняемых файлов</h2></center>
+        <p>С помощью командной строки создать каталог lab2 в каталоге D:\Student</p>
+        <p>В каталоге lab2 создать текстовый файл, содержащий в себе справку по команде tree.</p>
+        <p>Создайте файл 1.txt с текстом «Hello » и файл 2.txt с текстом «World!». Затем выполните сведение файлов 1.txt и 2.txt в 3.txt</p>
+        <p>Откройте блокнот и создайте командный файл в папке D:\Student назовите его ByMe.bat, который должен выполнять следующие действия:</p>
+        <ol>
+            <li>создать переменную MyName присвоить ей ваше имя (желательно использовать только символы латинского алфавита, чтобы избежать несоответствия кодировки)</li>
+            <li>создать переменную MySurname присвоить ей вашу фамилию</li>
+            <li>вывести переменные на экран</li>
+            <li>объединить переменные MyName и MySurname в переменную My</li>
+            <li>создать переменную Group присвоить ей значение по названию вашей группы, но в начале поставить 6 символов *, например ******КС-131</li>
+            <li>создать переменную My1 в которой нужно заменить символы ****** на строку group</li>
+            <li>записать в файл My.txt переменные My и My1</li>
+            <li>очистить переменную My</li>
+            <li>отключить дублирование команл</li>
+        </ol>
+        <p>Создайте еще один командный файл в этой же директории и назовите его auto.bat. Файл должен выполнять следующие действия:</p>
+        <ul>
+            <li>вывести сообщение, предлагающее пользователю открыть программу Internet Explorer. Если пользователь нажмет сочетание клавиш ctrl+C, исполняемый файл завершит свою работу, если будет нажата иная клавиша файл запустит программу. Файл находится C:\Program Files\Internet Explorer\iexplore.exe</li>
+        </ul>
+        <p>Сохраните изменения.</p>
+        <p>Откройте с помощью блокнота файл ByMy.bat, который мы создали первым и внесите в него изменения так, чтобы он запускал auto.bat</p>
+        <p>Покажите преподавателю код двух созданных bat файлов и результат их работы</p>
+    </div>
+
+    <footer class="page-footer light-green">
+        <div class="container">
+            <div class="row">
+                <div class="col 16 s12">
+                    <h5 class="white-text">Конец страницы :D</h5>
+                    <p class="grey-text text-lighten-4">Что теперь? Я не знаю >.< </p>
+                </div>
+                <div class="col 14 offset-12 s12">
+                    <h5 class="white-text">Random music</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://youtu.be/E-WHW-QNswE" target="_blank">Joe Esposito You're The Best Around</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://youtu.be/S0HbvNR2Xdc" target="_blank">DRAGONFORCE - SYMPHONY OF THE NIGHT</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://youtu.be/CVFKywbl5_U" target="_blank">The BIGGEST Metallica Medley Ever!</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://youtu.be/btPJPFnesV4" target="_blank">Survivor - Eye Of The Tiger</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2015 <a class="white-text waves-effect waves-teal btn-flat" href="https://steamcommunity.com/id/gameram">GaMeRaM</a> Loves you all <3. All of that was built on Linux mint c:
+            </div>
+        </div>
+        <div class="fixed-action-btn" style="bottom: 24px; left: 24px;">
+            <a class="btn-floating btn-large waves-effect waves-light blue scrollup">
+                <i class="large mdi-hardware-keyboard-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>

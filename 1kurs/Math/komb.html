@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0066)http://yukhym.com/ru/sluchajnye-sobytiya/osnovy-kombinatoriki.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr" slick-uniqueid="3"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./komb_files/share"></script><script async="" src="./komb_files/share_count"></script><script async="" src="./komb_files/dk"></script><script async="" src="./komb_files/count.json"></script><script async="" src="./komb_files/share.php"></script>
+<link href="./komb_files/css" rel="stylesheet" type="text/css">
+  <!--<base href="http://yukhym.com/ru/sluchajnye-sobytiya/osnovy-kombinatoriki.html">--><base href=".">
+  
+  <meta name="keywords" content="вища математика,ймовірність,замовити, приклади,  навчання, калькулятор, ЗНО математика,  YukhymCALC, визначник, границя, інтеграл, похідна, ймовірність, комплексні числа, ГДЗ алгебра,вектори, послідовність, площа, периметр, контрольна, розв&#39;язати,">
+  <meta name="rights" content="Yukhym Roman">
+  <meta name="og:type" content="article">
+  <meta name="og:title" content="Основы комбинаторики - перестановки, размещения, сочетания">
+  <meta name="og:description" content="Комбинаторика является важным разделом математики, который исследует закономерности расположения, упорядочения, выбора и распределения элементов с фиксированного множества.
+При большом числе возможны">
+  <meta name="author" content="Roman Yukhym">
+  <meta name="description" content="Контрольна робота-Вища математика, Теорія ймовірностей. Навчання. Приклади розв&#39;язування задач.Підготовка до ЗНО. Математичний калькулятор">
+  <meta name="generator" content="Joomla! - Open Source Content Management">
+  <title>Основы комбинаторики - перестановки, размещения, сочетания</title>
+  <link href="http://yukhym.com/templates/allrusty-fjt/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="./komb_files/buttons.css" type="text/css">
+  <link rel="stylesheet" href="./komb_files/mos_jdownloads_file.css" type="text/css">
+  <link rel="stylesheet" href="./komb_files/extravote.css" type="text/css">
+  <link rel="stylesheet" href="./komb_files/formcheck.css" type="text/css">
+  <link rel="stylesheet" href="./komb_files/template.css" type="text/css">
+  <style type="text/css">
+
+  </style>
+  <script src="./komb_files/caption.js" type="text/javascript"></script>
+  <script src="./komb_files/openapi.js" type="text/javascript"></script>
+  <script src="./komb_files/jquery.min.js" type="text/javascript"></script>
+  <script src="./komb_files/buttons.js" type="text/javascript"></script>
+  <script src="./komb_files/extravote.js" type="text/javascript"></script>
+  <script src="./komb_files/mootools-yui-compressed.js" type="text/javascript"></script>
+  <script src="./komb_files/ru.js" type="text/javascript"></script>
+  <script src="./komb_files/formcheck.js" type="text/javascript"></script>
+  <script src="./komb_files/formcalc.js" type="text/javascript"></script>
+  <script src="./komb_files/sfhover.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+VK.init({apiId: 4326757, onlyWidgets: true});
+            var jllickeproSettings = {
+                url : "http://yukhym.com",
+                typeGet : "0",
+                disableMoreLikes : 0,
+                isCategory : 0,
+                buttonsContayner : "",
+                parentContayner : "div.jllikeproSharesContayner",
+            };
+
+				var ev_basefolder = '';
+				var extravote_text=Array('Ваш браузер не поддерживает AJAX!','Секундочку...','Спасибо за Ваш Голос!','Для оценки этого материала, Вам необходимо войти в систему.','Извините, Вы уже оценивали этот материал.','[%s Голоса (ов)]','[%s Голос]',' Рейтинг %s ');
+			
+
+  </script>
+  <link rel="author" href="https://plus.google.com/u/0/116220232029121686355">
+
+<link rel="stylesheet" href="./komb_files/styles.css" type="text/css">
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39054249-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+		
+
+
+
+<link rel="author" href="https://plus.google.com/116220232029121686355">
+
+<!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="./komb_files/openapi(1).js"></script>
+<script type="text/javascript">
+  VK.init({apiId: 4326757, onlyWidgets: true});
+</script>
+</head>
+
+<body class="background">
+
+<div id="main">
+<div id="header-w">
+    	<div id="header">
+		<div class="topmenu">
+		<div class="topleft"></div><div class="topright">
+			<form action="http://yukhym.com/ru/sluchajnye-sobytiya.html" method="post">
+	<div class="search">
+		<input type="submit" value="Find" class="button" onclick="this.form.searchword.focus();"><input name="searchword" id="mod-search-searchword" maxlength="20" class="searchbox" type="text" size="35" value="search info" onblur="if (this.value==&#39;&#39;) this.value=&#39;search info&#39;;" onfocus="if (this.value==&#39;search info&#39;) this.value=&#39;&#39;;">	<input type="hidden" name="task" value="search">
+	<input type="hidden" name="option" value="com_search">
+	<input type="hidden" name="Itemid" value="216">
+	</div>
+</form>
+
+		</div><div class="topright2"></div>
+		</div>
+        	        
+            	<a href="http://yukhym.com/">
+			<img src="./komb_files/logo.png" border="0" alt="Yukhym.com" class="logo">
+			</a>
+            		<div class="slogan">Cтудентський освітній математичний  портал</div>
+                                     
+	</div> 
+<div class="shadowtop"><!--shadow top--></div>	
+</div>
+<div class="shadow">
+<div id="wrapper">
+        	<div id="navr">
+			<div class="tguser"><div class="mod-languages">
+
+	<ul class="lang-inline">
+						<li class="" dir="ltr">
+			<a href="http://yukhym.com/uk/vipadkovi-podiji.html">
+							<img src="./komb_files/uk.gif" alt="Українська (Україна)" title="Українська (Україна)">						</a>
+			</li>
+								<li class="lang-active" dir="ltr">
+			<a href="http://yukhym.com/ru/sluchajnye-sobytiya.html">
+							<img src="./komb_files/ru.gif" alt="Русский (Россия)" title="Русский (Россия)">						</a>
+			</li>
+				</ul>
+
+</div>
+</div>
+		<div id="navl">
+		<div id="nav">
+				<div id="nav-left">
+<div id="horizmenu-surround">
+        <ul class="menutop level1">
+                    </ul>
+    </div><ul class="menu">
+                    <li class="item184">
+                        <a href="http://yukhym.com/ru/">
+                    <span class="menuitem">Главная</span>
+                </a>
+                                </li>
+                                <li class="item191 parent">
+                        <a href="http://yukhym.com/ru/obuchenie.html">
+                    <span class="menuitem">Обучение</span>
+                </a>
+                                <ul>
+                                        <li class="item192">
+                        <a href="http://yukhym.com/ru/obuchenie/vysshaya-matematika.html">
+                    <span class="menuitem">Высшая математика</span>
+                </a>
+                                </li>
+                                </ul>
+                    </li>
+                                <li class="item217 parent">
+                        <a href="http://yukhym.com/ru/kontrolnaya-rabota.html">
+                    <span class="menuitem">Контрольная работа</span>
+                </a>
+                                <ul>
+                                        <li class="item218">
+                        <a href="http://yukhym.com/ru/kontrolnaya-rabota/kr-po-vysshej-matematike.html">
+                    <span class="menuitem">КР по высшей математике</span>
+                </a>
+                                </li>
+                                </ul>
+                    </li>
+                                <li class="item197 parent">
+                        <a href="http://yukhym.com/ru/kalkulyatory.html">
+                    <span class="menuitem">Калькуляторы</span>
+                </a>
+                                <ul>
+                                        <li class="item198">
+                        <a href="http://yukhym.com/ru/kalkulyatory/matematicheskij-kalkulyator-yukhymcalc.html">
+                    <span class="menuitem">Математический калькулятор YukhymCALC</span>
+                </a>
+                                </li>
+                                </ul>
+                    </li>
+                                <li class="item200">
+                        <a href="http://yukhym.com/ru/karta-sajta.html">
+                    <span class="menuitem">Карта сайта</span>
+                </a>
+                                </li>
+                    </ul></div>
+	<div id="nav-right">
+	</div></div></div></div><div id="main-content"><!--[if IE 6]><link rel="stylesheet" href="/ DOCTYPE html type="text/css" media="screen" PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN < ?php echo $templateUrl; ?>/css/template.ie6.css" DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN type="text/css" media="screen" /><![endif]-->		<div class="clearpad"></div>
+	<div id="message">
+	    
+<div id="system-message-container">
+</div>
+	</div>    
+            <div id="leftbar-w">
+    <div id="sidebar">
+        	<div class="module">
+        <div class="inner">
+				<div class="h3c"><div class="h3r"><div class="h3l"><h3 class="module-title">ВЫСШАЯ МАТЕМАТИКА</h3></div></div></div>
+			    <div class="module-body">
+	        
+<ul class="menu">
+<li class="item-223"><a href="http://yukhym.com/ru/matematika.html">Математика</a></li><li class="item-205"><a href="http://yukhym.com/ru/vektory.html">Векторы</a></li><li class="item-229"><a href="http://yukhym.com/ru/geometriya.html">Геометрия</a></li><li class="item-207"><a href="http://yukhym.com/ru/matritsy-i-opredeliteli.html">Матрицы </a></li><li class="item-208"><a href="http://yukhym.com/ru/sistemy-linejnykh-uravnenij.html">Системы  уравнений</a></li><li class="item-209"><a href="http://yukhym.com/ru/vychislenie-predelov.html">Вычисление пределов</a></li><li class="item-210"><a href="http://yukhym.com/ru/proizvodnaya-funktsii.html">Производная функции</a></li><li class="item-211"><a href="http://yukhym.com/ru/issledovanie-funktsii.html">Исследование функции</a></li><li class="item-212"><a href="http://yukhym.com/ru/integrirovanie-funktsii.html">Интегрирование функции</a></li><li class="item-213"><a href="http://yukhym.com/ru/ryady.html">Ряды </a></li></ul>
+        </div>
+        </div>
+	</div>
+		<div class="module">
+        <div class="inner">
+				<div class="h3c"><div class="h3r"><div class="h3l"><h3 class="module-title">Теория вероятностей</h3></div></div></div>
+			    <div class="module-body">
+	        
+<ul class="menu">
+<li class="item-238"><a href="http://yukhym.com/ru/kontrolnye-po-teorii-veroyatnostej.html">Контрольные по теории вероятностей</a></li><li class="item-216 current active"><a href="http://yukhym.com/ru/sluchajnye-sobytiya.html">Случайные события</a></li><li class="item-219"><a href="http://yukhym.com/ru/sluchajnye-velichiny.html">Случайные величины</a></li><li class="item-221"><a href="http://yukhym.com/ru/zakony-raspredeleniya.html">Законы распределения</a></li></ul>
+        </div>
+        </div>
+	</div>
+		<div class="module">
+        <div class="inner">
+				<div class="h3c"><div class="h3r"><div class="h3l"><h3 class="module-title">ВНО</h3></div></div></div>
+			    <div class="module-body">
+	        
+<ul class="menu">
+<li class="item-227"><a href="http://yukhym.com/ru/vno-matematika.html">Экзамены, тесты</a></li></ul>
+        </div>
+        </div>
+	</div>
+		<div class="module">
+        <div class="inner">
+			    <div class="module-body">
+	        <script type="text/javascript" src="./komb_files/orphus1.js"></script>
+<a href="http://orphus.ru/" id="orphus" target="_blank" title="Система Orphus"><img alt="Система Orphus" src="./komb_files/orphus1.gif" border="0" width="125" height="115"></a>
+
+        </div>
+        </div>
+	</div>
+	</div>
+<!-- MODIFY social buttons here (add yours from addthis.com) -->
+<!-- END of social script -->		
+</div>
+        	
+<div id="centercontent">
+<!-- Slideshow -->
+		
+<!-- END Slideshow -->
+<div class="clearpad">
+<div class="item-page">
+
+
+
+		<h2 class="item-page-title">
+
+				
+						Основы комбинаторики - перестановки, размещения, сочетания
+				
+		</h2>
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+    
+
+	<p><span class="FF2">Комбинаторика является важным </span>разделом математики, который исследует закономерности расположения, упорядочения, выбора и распределения элементов с фиксированного множества.</p>
+<p>При большом числе возможных последствий испытания способы прямого перебора возможных вариантов малоэффективны. На помощь приходят комбинаторные методы, в основе которых лежат два следующих правила.</p>
+<p class="FF2" style="text-align: center;">ПРАВИЛО СУММИРОВАНИЯ</p>
+<p>Если два взаимоисключающие действия могут быть выполнены в соответствии&nbsp;<img src="./komb_files/Im2_001.gif" border="0" alt="" align="absmiddle"> и <img src="./komb_files/Im2_002.gif" border="0" alt="" align="absmiddle">&nbsp;способами, тогда какое-то одно из этих действий можно выполнить&nbsp;<img src="./komb_files/Im2_003.gif" border="0" alt="" align="absmiddle"> способами.</p>
+<p><span class="FF1">Пример 1.</span> Из города А в город В можно добраться 12 поездами, 3 самолетами, 23 автобусами. Сколькими способами можно добраться из города А в город В?</p>
+<p><span class="FF2">Решение. </span>Проезд из А в В на поезде, самолете или автобусе являются событиями, которые не могут выполняться одновременно одним человеком (взаимоисключающими), поэтому общее количество маршрутов можно вычислить суммированием способов передвижения</p>
+<p><img src="./komb_files/Im2_004.gif" border="0" alt="" align="absmiddle"></p>
+<p class="FF2" style="text-align: center;">ПРАВИЛО ПРОИЗВЕДЕНИЯ</p>
+<p>Пусть две выполняемые одно за другим действия могут быть осуществлены в соответствии <img src="./komb_files/Im2_001.gif" border="0" alt="" align="absmiddle"> и <img src="./komb_files/Im2_002.gif" border="0" alt="" align="absmiddle"> способами. Тогда обе они могут быть выполнены <img src="./komb_files/Im2_007.gif" border="0" alt="" align="absmiddle">&nbsp;способами.</p>
+<p style="text-align: center;"><span style="color: #ff0000;">----------------------------</span></p>
+<p><span class="FF1">Пример 2.</span> В турнире принимают участие 8 хоккейных команд. Сколько существует способов распределить первое, второе и третье места?</p>
+<p><span class="FF2">Решение. </span>Первое место займет одна из 8 команд, второе - одна из 7, третье - одна из 6, так как каждая из них не может претендовать одновременно на два призовых места. Поэтому таких способов будет ровно</p>
+<p><img src="./komb_files/Im2_008.gif" border="0" alt="" align="absmiddle"></p>
+<p>Оба правила обобщаются на случай любого конечного количества действий. В комбинаторике различают три вида различных соединений (комбинаций) элементов фиксированной множества: перестановки, размещения, сочетания. Ниже будут даны их определения с обозначениями, которые наиболее употребительные</p>
+<p><span class="FF2">Перестановками</span> из <img src="./komb_files/Im2_002.gif" border="0" alt="" align="absmiddle"> из элементов называются такие их совокупности, отличающихся друг от друга только порядком вхождения элементов. Их обозначают <img src="./komb_files/Im2_010.gif" border="0" alt="" align="absmiddle">&nbsp;и определяют по формуле</p>
+<p><img src="./komb_files/Im2_011.gif" border="0" alt="" align="absmiddle"></p>
+<p><img src="./komb_files/Im2_012.gif" border="0" alt="" align="absmiddle">- факториал числа <img src="./komb_files/Im2_002.gif" border="0" alt="" align="absmiddle">, определяется по правилу <img src="./komb_files/Im2_014.gif" border="0" alt="" align="absmiddle">&nbsp;</p>
+<p style="text-align: center;"><span style="color: #ff0000;">----------------------------</span></p>
+<p><span class="FF1">Пример 3.</span> Сколькими способами можно в детсадку поставить группу из 15 детей в ряд?</p>
+<p><span class="FF2">Решение.</span> На первое место есть возможность поставить одного из 15 детей, на второе одного из 14 и т.д. Общее количество</p>
+<p><img src="./komb_files/Im2_016.gif" border="0" alt="" align="absmiddle"></p>
+<p><span class="FF2">Размещением</span> из <img src="./komb_files/Im2_017.gif" border="0" alt="" align="absmiddle"> элементов по <img src="./komb_files/Im2_002.gif" border="0" alt="" align="absmiddle"> называются такие совокупности <img src="./komb_files/Im2_002.gif" border="0" alt="" align="absmiddle"> элементов, отличающихся друг от друга по крайней мере одним элементом или порядком их вхождения (<img src="./komb_files/Im2_020.gif" border="0" alt="" align="absmiddle">):</p>
+<p><img src="./komb_files/Im2_021.gif" border="0" alt="" align="absmiddle"></p>
+<p style="text-align: center;"><span style="color: #ff0000;">----------------------------</span></p>
+<p><span class="FF1">Пример 4.</span> Сколько различных трехзначных чисел можно составить с помощью цифр от 1 до 9 ?</p>
+<p><span class="FF2">Решение.</span> На первом месте есть возможность поставить одну из 9 цифр, на второе одного из 8 и т.д. Общее количество будет ровно</p>
+<p><img src="./komb_files/Im2_022.gif" border="0" alt="" align="absmiddle"></p>
+<p style="text-align: center;"><span style="color: #ff0000;">----------------------------</span></p>
+<p><span class="FF2">Сочетаниями</span> из <img src="./komb_files/Im2_017.gif" border="0" alt="" align="absmiddle"> элементов по <img src="./komb_files/Im2_002.gif" border="0" alt="" align="absmiddle">&nbsp;называются такие комбинации из&nbsp;<img src="./komb_files/Im2_002.gif" border="0" alt="" align="absmiddle"> элементов, которые отличаются друг от друга по крайней мере одним элементом (<img src="./komb_files/Im2_026.gif" border="0" alt="" align="absmiddle">) :</p>
+<p><img src="./komb_files/Im2_027.gif" border="0" alt="" align="absmiddle"></p>
+<p style="text-align: center;"><span style="color: #ff0000;">&nbsp;</span></p>
+<p><span class="FF1">Пример 5.</span> Сколькими способами можно выбрать три цифры из девяти 1, 2, 3, ..., 9?</p>
+<p><span class="FF2">Решение. </span>Количество всех возможных способов определяем из формулы</p>
+<p><img src="./komb_files/Im2_028.gif" border="0" alt="" align="absmiddle"></p>
+<p style="text-align: center;"><span style="color: #ff0000;">----------------------------</span></p>
+<p><span class="FF1">Приклад 6.</span> Из одиннадцати букв азбуки составлено название украинской сказки «Котигорошок». Ребенок, не умеющий читать, рассыпал буквы, а затем собрал в произвольном порядке. Найти вероятность того, что он соберет слово «Котигорошок».</p>
+<p><span class="FF2">Решение.</span> На здравый смысл получается, что такая вероятность равна нулю, однако это не так. Согласно теории, с одиннадцати букв можно составить различные буквосочетание, отличающиеся между собой только порядком букв, поэтому число всех возможных перестановок равно&nbsp;<img src="./komb_files/Im2_029.gif" border="0" alt="" align="absmiddle"></p>
+<p>Однако буквы «К» и «О» могут занимать одну из четырех, и одну из двух позиций соответственно, их можно переставлять. Поэтому число благоприятных событий равно</p>
+<p><img src="./komb_files/Im2_030.gif" border="0" alt="" align="absmiddle"></p>
+<p>Искомая вероятность примет значение</p>
+<p><img src="./komb_files/Im2_031.gif" border="0" alt="" align="absmiddle"></p>
+<p style="text-align: center;"><span style="color: #ff0000;">----------------------------</span></p>
+<p><span class="FF1">&nbsp;</span>Хорошо разберитесь с приведенными примерами, которые показывают где применять&nbsp; на практике правило сложения, а где умножения; на их основе построен весь следующий материал. Впереди еще много нового следует изучить, здесь только основы теории вероятностей.</p>
+<p style="text-align: center;"><span style="color: #ff0000;">----------------------------------------------</span></p>				
+					<div id="jlvkcomments" style="height: 133px; width: 496px; background: url(http://vk.com/images/upload.gif) 50% 50% no-repeat transparent;"><iframe name="fXD7dcd7" frameborder="0" src="./komb_files/widget_comments.html" width="496" height="133" scrolling="no" id="vkwidget1" style="overflow: hidden;"></iframe></div>
+					<script type="text/javascript">
+					VK.Widgets.Comments('jlvkcomments', {limit: 5, width: '496', attach: 'false', autoPublish: 1, norealtime: 0},160);
+					</script>
+					
+									<div class="jllikeproSharesContayner jllikepro_160">
+				<input type="hidden" class="link-to-share" id="link-to-share-160" value="http://yukhym.com/ru/sluchajnye-sobytiya/osnovy-kombinatoriki.html">
+				<input type="hidden" class="share-title" id="share-title-160" value="Основы комбинаторики - перестановки, размещения, сочетания">
+				<input type="hidden" class="share-image" id="share-image-160" value="">
+				<input type="hidden" class="share-id" value="160">
+				<div class="event-container">
+				<div class="likes-block_left">					<a title="FaceBook" class="like l-fb" id="l-fb-160">
+					<i class="l-ico"></i>
+					<span class="l-count"></span>
+					</a>					<a title="Вконтакте" class="like l-vk" id="l-vk-160">
+					<i class="l-ico"></i>
+					<span class="l-count"></span>
+					</a>					<a title="Twitter" class="like l-tw" id="l-tw-160">
+					<i class="l-ico"></i>
+					<span class="l-count"></span>
+					</a>					<a title="Одноклассники" class="like l-ok" id="l-ok-160">
+					<i class="l-ico"></i>
+					<span class="l-count"></span>
+					</a>					<a title="Google+" class="like l-gp" id="l-gp-160">
+					<i class="l-ico"></i>
+					<span class="l-count"></span>
+					</a>					<a title="Мой мир" class="like l-ml" id="l-ml-160">
+					<i class="l-ico"></i>
+					<span class="l-count"></span>
+					</a>					<a title="LinkedIn" class="like l-ln" id="l-ln-160">
+					<i class="l-ico"></i>
+					<span class="l-count"></span>
+					</a>						<div>
+							<a style="text-decoration:none; color: #c0c0c0; font-family: arial,helvetica,sans-serif; font-size: 5pt; " target="_blank" href="http://joomline.ru/rasshirenija/plugin/jllike.html">Social Like</a>
+						</div>
+					</div>
+				</div>
+			</div>
+<div class="extravote">
+  <span class="extravote-stars">
+    <span id="rating_160_0" class="current-rating" style="width:70%;"></span>
+      <span class="extravote-star"><a href="javascript:void(null)" onclick="javascript:JVXVote(160,0.5,3.5,1,&#39;0&#39;,1,1,1);" title="0.5 из 5" class="ev-5-stars">1</a></span>
+      <span class="extravote-star"><a href="javascript:void(null)" onclick="javascript:JVXVote(160,1,3.5,1,&#39;0&#39;,1,1,1);" title="1 из 5" class="ev-10-stars">1</a></span>
+      <span class="extravote-star"><a href="javascript:void(null)" onclick="javascript:JVXVote(160,1.5,3.5,1,&#39;0&#39;,1,1,1);" title="1.5 из 5" class="ev-15-stars">1</a></span>
+      <span class="extravote-star"><a href="javascript:void(null)" onclick="javascript:JVXVote(160,2,3.5,1,&#39;0&#39;,1,1,1);" title="2 из 5" class="ev-20-stars">1</a></span>
+      <span class="extravote-star"><a href="javascript:void(null)" onclick="javascript:JVXVote(160,2.5,3.5,1,&#39;0&#39;,1,1,1);" title="2.5 из 5" class="ev-25-stars">1</a></span>
+      <span class="extravote-star"><a href="javascript:void(null)" onclick="javascript:JVXVote(160,3,3.5,1,&#39;0&#39;,1,1,1);" title="3 из 5" class="ev-30-stars">1</a></span>
+      <span class="extravote-star"><a href="javascript:void(null)" onclick="javascript:JVXVote(160,3.5,3.5,1,&#39;0&#39;,1,1,1);" title="3.5 из 5" class="ev-35-stars">1</a></span>
+      <span class="extravote-star"><a href="javascript:void(null)" onclick="javascript:JVXVote(160,4,3.5,1,&#39;0&#39;,1,1,1);" title="4 из 5" class="ev-40-stars">1</a></span>
+      <span class="extravote-star"><a href="javascript:void(null)" onclick="javascript:JVXVote(160,4.5,3.5,1,&#39;0&#39;,1,1,1);" title="4.5 из 5" class="ev-45-stars">1</a></span>
+      <span class="extravote-star"><a href="javascript:void(null)" onclick="javascript:JVXVote(160,5,3.5,1,&#39;0&#39;,1,1,1);" title="5 из 5" class="ev-50-stars">1</a></span>
+  </span>
+  <span class="extravote-info" id="extravote_160_0"> Рейтинг 3.50 [1 Голос]</span>
+</div>
+
+
+	<div class="richsnippetsvote">
+							<div itemscope="" itemtype="http://schema.org/Article">
+								<span itemprop="name">Основы комбинаторики - перестановки, размещения, сочетания</span> - <span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating"><span itemprop="ratingValue">3.0</span> из 
+									<span itemprop="bestRating">5</span>
+								основанный на 
+									<span itemprop="ratingCount">1</span> голосе</span> 
+							</div>
+						</div>
+</div> </div></div>	
+    <div id="rightbar-w">
+    <div id="sidebar">
+         	<div class="module">
+        <div class="inner">
+			    <div class="module-body">
+	        
+<!-- RightBlock -->
+
+</div>
+        </div>
+	</div>
+		<div class="module">
+        <div class="inner">
+			    <div class="module-body">
+	        <!-- Установите этот блок в том месте, где должен отображаться банер    -->
+
+</div>
+        </div>
+	</div>
+		<div class="module">
+        <div class="inner">
+			    <div class="module-body">
+	        
+
+<div class="custom">
+	<p>            <script type="text/javascript">
+                __FC_FORMULA = [''];
+                __FC_SUBMIT = false;
+                __FC_CAPTCHA_TEXT = 'Неверно введены символы с картинки.';
+            </script>
+            </p><h2>Заказать контрольную роботу, задачу, тесты</h2>
+            <div class="form_descr"></div>
+            <form action="http://yukhym.com/index.php" enctype="multipart/form-data" name="calcForm" id="calcForm" method="post">
+            Поля со знаком (*) обязательны к заполнению!<br>
+Ваше имя:*<br>
+<input type="text" name="name" class="validate\[&#39;required&#39;]"><br><br>
+Ваш e-mail:*<br>
+<input type="text" name="email" class="validate\[&#39;required&#39;,&#39;email&#39;]"><br><br>
+Номер телефона:<br>
+<input type="text" name="phone" class="validate\[&#39;phone&#39;]"><br><br>
+Где Вы учитесь:<br>
+<input type="text" name="institute" class="validate\[&#39;required&#39;]"><br><br>
+Курс обучения:<br>
+<select name="subject">
+<option value="k1">1 курс</option>
+<option value="k2">2 курс</option>
+<option value="k3">3 курс</option>
+<option value="k4">4 курс</option>
+<option value="k5">5 курс</option>
+</select><br><br>
+Текст сообщения:*<br>
+<textarea name="message" rows="7" cols="20" class="validate\[&#39;required&#39;]"></textarea><br><br>
+Загрузить задание (до 7 Mb):<br><input type="file" name="zagruzka"><br><br>
+<img src="./komb_files/index.php" alt="captcha"><br>Введите символы с картинки:<br><input class="validate[&#39;length[6,6]&#39;,&#39;required&#39;]" type="text" size="4" name="captcha" value=""><br><br>
+<input type="submit" value="Отправить">            <input type="hidden" name="option" value="com_formcalc">
+            <input type="hidden" name="task" value="submit">
+            <input type="hidden" name="formid" value="5">
+            <input type="hidden" name="Itemid" value="216">
+            <input type="hidden" name="ed77dcc80c1986c75a6fe76336290baa" value="1">            </form>
+      <div style="margin-top: 10px; font-size: 11px" align="center">
+</div>			
+        <p></p></div>
+        </div>
+        </div>
+	</div>
+	
+    </div>
+    </div>
+    <div class="clr"></div>
+        </div>   		
+        </div>     
+  </div>
+</div>
+<div id="user-bottom">
+<div class="user1">		<div class="moduletable">
+					<noindex>  <!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a  href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t11.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показане число переглядів за 24"+
+" години, відвідувачів за 24 години й за сьогодні' "+
+"border='0' width='88' height='31'><\/a>")
+//--></script><a href="http://www.liveinternet.ru/click" target="_blank"><img src="./komb_files/hit" alt="" title="LiveInternet: показане число переглядів за 24 години, відвідувачів за 24 години й за сьогодні" border="0" width="88" height="31"></a><!--/LiveInternet--> 
+
+</noindex> 
+
+
+
+
+
+
+
+
+
+
+		</div>
+	</div>
+<div class="user2"></div>
+<div class="user3"></div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39054249-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<div id="bottom">
+            <div class="tg">
+            Copyright 2012-2015.  <a href="http://yukhym.com/"><strong> yukhym. com - Математика для Вас</strong></a> 
+<!-- Link protected by copyright law. DO NOT REMOVE! -->
+<div style="padding=0  20 px; visibility:hidden;"><a href="http://www.freshjoomlatemplates.com/" title="free web templates" target="_blank">Joomla 1.7 templates free</a>.
+Yukhym.com-математичний студентський портал</div> </div></div>
+
+
+
+		</body></html>

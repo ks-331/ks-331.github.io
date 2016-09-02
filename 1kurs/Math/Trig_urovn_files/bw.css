@@ -1,0 +1,424 @@
+/* Common styles (begin) */
+    body
+    {
+        background: #fff;
+    }
+
+    .b-body
+    {
+        color: #000;
+        background: #fff;
+    }
+
+    hr
+    {
+        border-bottom: 1px solid #b1b1b1;
+    }
+/* Common styles (end) */
+
+/* Informers common (begin) */
+    /* Menu (begin) */
+        .b-menu-mark .default
+        {
+            background: url(/i/users/color/bw/arrow.png) no-repeat;
+        }
+    /* Menu (end) */
+
+    /* Photo informer (begin) */
+        .b-photo-informer .back a
+        {
+            background: url(/i/users/color/bw/photos-back.png) no-repeat;
+        }
+
+        .b-photo-informer .forward a
+        {
+            background: url(/i/users/color/bw/photos-forward.png) no-repeat;
+        }
+    /* Photo informer (end) */
+/* Informers common (end) */
+
+/* Scheme 1 (begin) */
+    .s1
+    {
+        color: #57585a;
+        background: #e1e2e4;
+    }
+
+    .s1 .header, .s1 .header-link, .s1 .header-link:visited
+    {
+        color: #000;
+    }
+
+    .s1 .header-link:hover
+    {
+        color: #58585a;
+    }
+
+    .s1 .link, .s1 .link:visited
+    {
+        color: #000;
+    }
+
+    .s1 .link:hover
+    {
+        color: #58585a;
+    }
+
+    .s1 .line
+    {
+        background: #d4d5d7;
+    }
+
+    .s1 .list th,
+    .s1 .data th,
+    .s1 .data th .link
+    {
+        color: #4f5257;
+    }
+
+    .s1 .data th
+    {
+        border-bottom: 1px solid #4f5257;
+    }
+
+    .s1 .date
+    {
+        color: #4f5257;
+    }
+
+    /* Photo informer (begin) */
+        .s1 .listing li img
+        {
+            border: 1px solid #e1e2e4;
+        }
+
+        .s1 .listing li .active
+        {
+            border: 1px solid #4f5257;
+        }
+    /* Photo informer (end) */
+
+    /* Photo gallery (begin) */
+        .s1 .album .sign a,
+        .s1 .album .sign a:visited
+        {
+            color: #000;
+
+            background: #bcbcbd;
+        }
+
+        .s1 .album .sign a:hover,
+        .s1 .album .sign b
+        {
+            background: #ffcc00;
+        }
+
+        .s1 .album i, .s1 .album i i a
+        {
+            border: 1px solid #888;
+            background: #e1e2e4;
+        }
+
+        .s1 .album img
+        {
+            border: 10px solid #e1e2e4;
+            background: #ccc
+        }
+    /* Photo gallery (end) */
+
+    /* Catalog (begin) */
+        .s1 .filter b
+        {
+            color: #fff;
+            background: #4f5257;
+        }
+    /* Catalog (end) */
+
+    /* Comments (begin) */ /**/
+        .s1 .b-comments__comment,
+        .s1 .b-comments__pager
+        {
+            border-color: #57585A;
+        }
+    /* Comments (end) */ /**/
+
+/* Scheme 1 (end) */
+
+/* Scheme 2 (begin) */
+    .s2
+    {
+        color: #fff;
+        background: #666;
+    }
+
+    .s2 .header-link, .s2 .header-link:visited
+    {
+        color: #fff;
+    }
+
+    .s2 .header-link:hover
+    {
+        color: #fff;
+    }
+
+    .s2 .link, .s2 .link:visited
+    {
+        color: #fff;
+    }
+
+    .s2 .link:hover
+    {
+        color: #fff;
+    }
+
+    .s2 .line
+    {
+        background: #454545;
+    }
+
+    .s2 .list th,
+    .s2 .data th,
+    .s2 .data th .link
+    {
+        color: #aaa;
+    }
+
+    .s2 .date
+    {
+        color: #aaa;
+    }
+
+    /* Menu (begin) */
+        .s2 .b-menu-mark .default
+        {
+            background: url(/i/users/color/bw/arrow-s2.png) no-repeat;
+        }
+    /* Menu (end) */
+
+    /* Photo informer (begin) */
+        .s2 .listing li img
+        {
+            border: 1px solid #666;
+        }
+
+        .s2 .listing .active
+        {
+            border: 1px solid #fff;
+        }
+
+    /* Photo informer (end) */
+
+    /* Photo gallery (begin) */
+        .s2 .album .sign a,
+        .s2 .album .sign a:visited
+        {
+            color: #fff;
+            background: #3c3c3c;
+        }
+
+        .s2 .album .sign a:hover,
+        .s2 .album .sign b
+        {
+            color: #000;
+            background: #979797;
+        }
+
+        .s2 .album i, .s2 .album i i a
+        {
+            border: 1px solid #3c3c3c;
+            background: #666;
+        }
+
+        .s2 .album img
+        {
+            border: 10px solid #666;
+            background: #ccc;
+        }
+    /* Photo gallery (end) */
+
+    /* Catalog (begin) */
+        .s2 .filter b
+        {
+            color: #fff;
+            background: #000;
+        }
+    /* Catalog (end) */
+
+    /* User (begin) */
+        .s2 .b-user, .s2 .b-user *
+        {
+            color: #fff !important;
+        }
+
+        .s2 .b-user b
+        {
+            color: #f00 !important;
+        }
+    /* User (end) */
+
+    /* From blog (begin) */
+        .s2 .border
+        {
+            border: none;
+        }
+
+        .s2 .header-blog
+        {
+            background: #666;
+        }
+    /* From blog (end) */
+
+    /* Comments (begin) */ /**/
+        .s2 .b-comments__comment,
+        .s2 .b-comments__pager
+        {
+            border-color: #fff;
+        }
+    /* Comments (end) */ /**/
+
+/* Scheme 2 (end) */
+
+/* Scheme 3 (begin) */
+    .s3
+    {
+        color: #000;
+    }
+
+    .s3 .header-link, .s3 .header-link:visited
+    {
+        color: #000;
+    }
+
+    .s3 .header-link:hover
+    {
+        color: #000;
+    }
+
+    .s3 .link, .s3 .link:visited
+    {
+        color: #000;
+    }
+
+    .s3 .link:hover
+    {
+        color: #58585a;
+    }
+
+    .s3 .line
+    {
+        background: #fafafa;
+    }
+
+    .s3 .list th,
+    .s3 .data th,
+    .s3 .data th .link
+    {
+        color: #57585a;
+    }
+
+    .s3 .data th
+    {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .s3 .date
+    {
+        color: #58585a;
+    }
+
+    /* Photo informer (begin) */
+        .s3 .listing li img
+        {
+            border: 1px solid #fff;
+        }
+
+        .s3 .listing .active
+        {
+            border: 1px solid #b1b1b1;
+        }
+    /* Photo informer (end) */
+
+    /* Catalog (begin) */
+        .s3 .filter b
+        {
+            color: #fff;
+            background: #000;
+        }
+    /* Catalog (end) */
+
+    /* Photo gallery (begin) */
+        .s3 .album .sign a,
+        .s3 .album .sign a:visited
+        {
+            color: #000;
+
+            background: #e7e7e7;
+        }
+
+        .s3 .album .sign a:hover,
+        .s3 .album .sign b
+        {
+            background: #ffcc00;
+        }
+
+        .s3 .album i, .s3 .album i i a
+        {
+            border: 1px solid #888;
+            background: #fff;
+        }
+
+        .s3 .album img
+        {
+            border: 10px solid #fff;
+            background: #888
+        }
+    /* Photo gallery (end) */
+
+    /* User (begin) */
+        .s3 .b-user, .s3 .b-user *
+        {
+            color: #000 !important;
+        }
+
+        .s3 .b-user b
+        {
+            color: #f00 !important;
+        }
+    /* User (end) */
+
+    /* From blog (begin) */
+        .s3 .border
+        {
+            border: 1px solid #b1b1b1;
+        }
+
+        .s3 .header-blog
+        {
+            background: #fff;
+        }
+    /* From blog (end) */
+
+    /* Comments (begin) */ /**/
+        .s3 .b-comments__comment,
+        .s3 .b-comments__pager
+        {
+            border-color: #e0e0e0;
+        }
+
+        .s3 .b-comment__delete .link,
+        .s3 .b-comment__delete .link:link,
+        .s3 .b-comment__delete .link:visited
+        {
+            color: #8e8e8e;
+        }
+
+
+    /* Comments (end) */ /**/
+    /* Yandex maps */  /**/
+        body .YMaps
+        {
+            color: #000;
+        }
+    /* Yandex maps (end)  */ /**/
+
+/* Scheme 3 (end) */

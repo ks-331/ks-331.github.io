@@ -1,0 +1,1 @@
+if (typeof pluso != "undefined") pluso.setCounter("40", "http://matematikalegko.ru/formuli/formuli-privedenia.html", undefined, undefined, undefined);

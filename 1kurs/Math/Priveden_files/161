@@ -1,0 +1,12 @@
+    function run_script() {
+        var tag = document.createElement('a');
+        var img = document.createElement('img');
+        tag.href = "http://slava.soloway.su/rotator/redirect?place_id=161&banner_id=61";
+        tag.target = "_blank";
+        img.src = "http://slava.soloway.su/upload/banner-item/origin/468x60_142927448714.gif";
+        var firstScriptTag = document.getElementById('bd4c9ab730f55132');
+        firstScriptTag.appendChild(tag, firstScriptTag);
+        tag.appendChild(img, tag);
+    }
+run_script();
+

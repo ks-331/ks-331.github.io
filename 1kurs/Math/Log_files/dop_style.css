@@ -1,0 +1,53 @@
+.link-with-ico{ position: relative; padding: 0 0 0 21px; float: left; text-decoration: underline; }
+
+.icon{display: block; background: url(../images/icons.png) no-repeat;}
+.icon-list{height: 17px; width: 13px; background-position: -15px 0;}
+.icon-calc{height: 17px; width: 15px; background-position: 0 0;}
+
+.link-with-ico .icon{ position: absolute; left: 0; top: 0;}
+.text .link-with-ico{margin: 9px 32px 4px 14px;}
+.text-links{overflow: hidden;}
+
+.task-table{ border-collapse: collapse; border-spacing: 0; margin: 0 0 9px;}
+.task-table td{vertical-align: top; border-collapse: collapse; border-spacing: 0; padding: 0;}
+.task-table .task-table-title{padding: 0 15px 0 0;}
+
+.pagination-back, .pagination-back:hover,
+.pagination-next, .pagination-next:hover{color: #111!important; text-decoration: none!important;}
+.pagination-back span,
+.pagination-next span{color: #275D9F; text-decoration: none;}
+.pagination-back:hover span,
+.pagination-next:hover span{color: #c61e20!important; text-decoration: underline!important;}
+.pagination{text-align: center; font-size: 0; line-height: 25px; margin: 0 0 25px; padding: 18px 0 0;}
+.pagination-back{ margin: 0 18px 0 0; }
+.pagination-next{ margin: 0 0 0 18px; }
+.pagination-back, .pagination-next, .pagination-item, .pagination-dotted{
+    font: 14px/25px "Trebuchet MS",Arial,sans-serif;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+}
+.pagination-dotted{
+    width: 16px;
+    background: url(../images/pagination-sp.png) 0 0 no-repeat;
+    margin: 0 19px;
+    height: 25px;
+}
+.pagination-two-dottes .pagination-dotted{margin: 0 6px; width: 15px;}
+.pagination-item{
+    min-width: 21px;
+    padding: 0 2px;
+    line-height: 25px;
+    background: url(../images/pagination-sp.png) 0 -25px;
+    text-decoration: none!important;
+    color: #275D9F!important;
+    margin: 0 1px;
+    text-align: center;
+}
+.pagination-item:hover {background-position: 0 -50px; text-decoration: none; color: #000000!important;}
+.pagination-item.active{background-position: 0 -50px; text-decoration: none; color: #000000!important; font-weight: bold;}
+
+.navigation-link, .navigation-link:hover{color: #111!important; text-decoration: none!important;}
+.navigation-link span{color: #275D9F; text-decoration: underline;}
+.navigation-link:hover span{color: #c61e20!important; text-decoration: underline!important; }

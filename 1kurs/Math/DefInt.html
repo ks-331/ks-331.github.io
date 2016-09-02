@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script>$(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+        $('.scrollup').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 600);
+            return false;
+        });
+    });</script>
+
+    <nav class="light-green">
+        <div class="nav-wrapper">
+            <a href="../" class="brand-logo center hide-on-small-only">Информация для 1 курса КС</a>
+            <a href="../" class="brand-logo center hide-on-med-and-up">Информация</a>
+        </div>
+    </nav>
+    <div class="container flow-text">
+        <h4>Интеграл. Вычисление площадей с помощью интеграла</h4>
+        <p>Определение. Разность F (b)– F (a) называется интегралом от функции f (x) на отрезке [ a ; b ] и обозначается так: <img src="./DefInt/16.gif"> = F (b)– F (a) – формула Ньютона-Лейбница.</p>
+		<p>Геометрический смысл интеграла.</p>
+		<p><img class="responsive-img" src="./DefInt/17.gif"></p>
+		<p>Площадь криволинейной трапеции, ограниченной графиком непрерывной положительной на промежутке [ a ; b ] функции f (x), осью Ох и прямыми х=а и х= b:</p>
+		<p><img class="responsive-img" src="./DefInt/18.gif"></p>
+		<p>Вычисление площадей с помощью интеграла.</p>
+		<p>1.Площадь фигуры, ограниченной графиком непрерывной отрицательной на промежутке [ a ; b ] функции f (x), осью Ох и прямыми х=а и х= b :</p>
+		<p><img class="responsive-img" src="./DefInt/19.gif"></p>
+		<p>2.Площадь фигуры, ограниченной графиками непрерывных функций f (x),  &phi;(x) и прямыми х=а, х= b :</p>
+		<p><img class="responsive-img" src="./DefInt/20.gif"></p>
+		<p>3.Площадь фигуры, ограниченной графиками непрерывных функций f (x) и &phi;(x):</p>
+		<p><img class="responsive-img" src="./DefInt/22.gif"></p>
+		<p>4.Площадь фигуры, ограниченной графиками непрерывных функций f (x), &phi;(x) и осью Ох:</p>
+		<p><img class="responsive-img" src="./DefInt/23.gif"></p>
+    </div>
+
+</body>
+</html>

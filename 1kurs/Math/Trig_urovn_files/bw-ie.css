@@ -1,0 +1,28 @@
+/* Menu (begin) */
+    .b-menu-mark .default
+    {
+        background: none;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/i/users/color/bw/arrow.png',sizingmethod=scale);
+    }
+
+    * html .s2 .b-menu-mark .default
+    {
+        background: none;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/i/users/color/bw/arrow-s2.png',sizingmethod=scale);
+    }
+/* Menu (end) */
+
+/* Photo informer (begin) */
+    * html .b-photo-informer .back a
+    {
+        background: none;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/i/users/color/bw/photos-back.png',sizingmethod=scale);
+    }
+
+    * html .b-photo-informer .forward a
+    {
+        background: none;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/i/users/color/bw/photos-forward.png',sizingmethod=scale);
+    }
+/* Photo informer (end) */
+

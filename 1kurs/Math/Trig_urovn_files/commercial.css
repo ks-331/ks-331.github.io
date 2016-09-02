@@ -1,0 +1,230 @@
+@import url(global.css);
+
+/* Common styles (begin) */
+    body
+    {
+        margin: 2em 3em 1em 3em;
+        ma\rgin: 0;
+    }
+
+    .b-body
+    {
+        ma\rgin: 2em 3em 1em 3em;
+    }
+
+    .b-body h1, .b-body h2, .b-body h3
+    {
+        margin-bottom: 0.5em;
+    }
+
+    .b-body h4, .b-body h5, .b-body h6
+    {
+        margin-bottom: 0.1em;
+    }
+/* Common styles (end) */
+
+/* Head (begin) */
+    .b-title .header,
+    .b-slogan .header
+    {
+        margin-bottom: 0;
+    }
+
+    .b-title .header
+    {
+        font-weight: normal;
+
+        letter-spacing: 0.1em;
+    }
+
+    .b-title .header-link
+    {
+        text-decoration: none;
+    }
+
+    .b-slogan .header
+    {
+        font-size: 120%;
+        font-weight: normal;
+
+        letter-spacing: 0.1em;
+    }
+/* Head (end) */
+
+/* Left column (begin) */
+    /* Menu informer (begin) */
+        .b-menu li
+        {
+            margin-bottom: 0.6em;
+        }
+
+        .b-menu .active b
+        {
+            font-weight: bold;
+        }
+
+        .b-menu ul
+        {
+            padding: 0;
+
+            list-style: none;
+        }
+
+        .b-menu ul ul
+        {
+            margin: 0.3em 0 0.3em 0.8em;
+        }
+
+        .b-menu ul ul li
+        {
+            margin-bottom: 0.3em;
+        }
+    /* Menu informer (end) */
+
+    /* News informer (begin) */
+         .b-news-mini
+         {
+            position: relative;
+            zoom: 1;
+
+            margin-left: -0.5em;
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 0.5em;
+
+            border-left: 4px solid #c8c8c8;
+         }
+
+         .b-news .b-news-item .date
+         {
+            font-size: 65%;
+         }
+    /* News informer (end) */
+
+/* Left column (end) */
+
+/* Page body (begin) */
+    /* Text (begin) */
+        .b-text p
+        {
+            margin-bottom: 0.5em;
+
+            line-height: 1.3em;
+        }
+    /* Text (end) */
+
+    /* Catalog (begin) */
+        .b-table .filter li a,
+        .b-table .filter li b
+        {
+            font-size: 80%;
+        }
+
+        .b-table .data td
+        {
+            padding-top: 0.7em;
+            padding-bottom: 0.7em;
+        }
+
+        .b-table .data .price,
+        .b-table .data th
+        {
+            font-size: 80%;
+
+            padding-top: 1em;
+        }
+
+    /* Catalog (end) */
+
+    /* Employment history (begin) */
+        .b-employment .header
+        {
+            font-size: 130%;
+        }
+
+        .b-employment h3
+        {
+            font-size: 120%;
+        }
+
+        .b-employment .date
+        {
+            font-size: 65%;
+        }
+
+        .b-employment p
+        {
+            font-size: 85%;
+
+            line-height: 1.3em;
+        }
+    /* Employment history (end) */
+/* Page body (end) */
+
+/* Right column (begin) */
+    /* Counters (begin) */
+        .b-counters img
+        {
+            margin-right: 0.3em;
+        }
+    /* Counters (end) */
+
+    /* From blog (begin) */
+        .b-from-blog .header
+        {
+            font-size: 90%;
+        }
+
+        .b-from-blog .date
+        {
+            font-size: 85%;
+
+            display: block;
+
+            margin-bottom: 0.2em;
+        }
+
+        .b-from-blog p
+        {
+            font-size: 80%;
+        }
+    /* From blog (end) */
+/* Right column (end) */
+
+/* Foot (begin) */
+    /* Search (begin) */
+        .b-search
+        {
+            padding-left: 0;
+
+            text-align: left;
+
+            color: #59595b;
+        }
+
+        .b-search .search-input
+        {
+            width: 12em;
+        }
+
+        .b-search .btn
+        {
+            padding: 0 0.5em;
+        }
+    /* Search (end) */
+
+    /* Copyright (begin) */
+        .b-copy
+        {
+            padding-right: 0;
+        }
+    /* Copyright (end) */
+
+    /* feedback (begin) */ /* */
+        .b-feedback, .b-feedback__input_name, .b-feedback__input_comment, .b-feedback__input_email, .b-feedback-captcha__input {
+            border-color: #C8C8C8;
+        }
+
+
+    /* feedback (end) */ /* */
+/* Foot (end) */
